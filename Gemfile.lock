@@ -108,6 +108,15 @@ GEM
     erubi (1.13.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    google-protobuf (4.29.3-x86_64-linux)
+      bigdecimal
+      rake (>= 13)
+    googleapis-common-protos-types (1.17.0)
+      google-protobuf (>= 3.18, < 5.a)
+    grpc (1.69.0)
+      google-protobuf (>= 3.25, < 5.0)
+      googleapis-common-protos-types (~> 1.0)
+    grpc-tools (1.69.0)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.1.0)
@@ -286,6 +295,9 @@ DEPENDENCIES
   capybara
   debug
   dotenv-rails
+  google-protobuf
+  grpc
+  grpc-tools
   importmap-rails
   jbuilder
   mysql2 (~> 0.5)

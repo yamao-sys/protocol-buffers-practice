@@ -1,6 +1,6 @@
 FROM ruby:3.4.1
 
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs default-mysql-client vim
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs default-mysql-client vim protobuf-compiler
 
 RUN mkdir /app
 
