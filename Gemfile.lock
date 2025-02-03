@@ -116,7 +116,7 @@ GEM
     grpc (1.69.0)
       google-protobuf (>= 3.25, < 5.0)
       googleapis-common-protos-types (~> 1.0)
-    grpc-tools (1.69.0)
+    grpc-tools (1.70.1)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.1.0)
